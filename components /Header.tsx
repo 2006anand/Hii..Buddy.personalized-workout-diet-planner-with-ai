@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 interface HeaderProps {
@@ -22,17 +21,16 @@ const Header: React.FC<HeaderProps> = ({ onHistoryClick, onEnterGym, userName })
           </span>
         </div>
 
-        <div className="flex items-center gap-6">
+        <div className="flex items-center gap-4 md:gap-6">
           <button 
             onClick={onHistoryClick}
-            className="text-[10px] font-bold uppercase tracking-widest text-zinc-500 hover:text-white transition-all flex items-center gap-2"
+            className="text-[10px] font-bold uppercase tracking-widest text-zinc-500 hover:text-white transition-all items-center gap-2"
           >
             BIO_LOGS
           </button>
 
           {userName ? (
             <div className="flex items-center gap-2 px-4 py-2 bg-white/5 rounded-full border border-white/10">
-               <span className="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
                <span className="text-[10px] font-bold uppercase tracking-widest text-white">{userName}</span>
             </div>
           ) : (
