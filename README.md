@@ -2,7 +2,7 @@
 ### Personalized Workout & Diet Planner with AI
 
 🔗 **Live Website:** https://hi-buddy-anand-jha.vercel.app/
-   **GitHub Link:** 
+
 ---
 
 ## 📌 Overview
